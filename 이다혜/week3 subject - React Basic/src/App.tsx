@@ -8,6 +8,7 @@ import {data} from "./cardData.json";
 export default function App() {
   return (
     <div className="App">
+      
       <header>
         <Nav />
         <div className="title">다혜의 Portfoilo</div>
@@ -26,6 +27,7 @@ export default function App() {
           ))} 
         </div>
       </div>
+
     </div>
   );
 }
